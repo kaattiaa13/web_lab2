@@ -1,0 +1,157 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+html{
+	height: 100%;
+}
+
+.main-page{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/*header*/
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    border-bottom: 1px solid #e5e9f2;
+    background: #BACBDB;
+}
+
+.header-container{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28.44;
+    color: #18191F;
+}
+
+.nav{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28.44;
+    color: #18191F;
+    margin-left: auto;
+}
+.nav-link{
+  
+    color: #18191F;
+    text-decoration: none;
+    padding-right: 22px;
+}
+
+.nav-link:hover{
+	color: #8C30F5;
+}
+
+.nav-link:last-child{
+	margin-right: 0px;
+}
+
+/* Main */
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 41px;
+    padding-right: 37px;
+}
+
+.main-container{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-content{
+    width: 826px;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 73px;
+}
+
+.main-img{
+    
+}
+
+.main-header{
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 58px;
+	color: #18191F;
+    padding-top: 70px;
+    padding-bottom: 37px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-text {
+    margin-top: 51px;
+}
+
+.main-text p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.main-list{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+
+
+/*footer*/
+
+.footer{
+    display: flex;
+    align-items: center;
+    background:#55254B;
+    border-top: 1px solid #e5e9f2;
+}
+
+.footer-container{
+    width: 1440px;
+    margin: 0 auto;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-socials{
+    margin-left: auto;
+}
+
+.footer-socials-item{
+	margin-left: 32px;
+}
+
+.footer-socials-item:hover{
+	opacity: 0.5;
+}
